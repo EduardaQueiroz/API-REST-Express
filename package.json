@@ -1,0 +1,30 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardaQueiroz/API-REST-com-NodeJS---Curso-Alura.git"
+  },
+  "author": "Eduarda Queiroz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardaQueiroz/API-REST-com-NodeJS---Curso-Alura/issues"
+  },
+  "homepage": "https://github.com/EduardaQueiroz/API-REST-com-NodeJS---Curso-Alura#readme",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "consign": "^0.1.6",
+    "express": "^4.17.3",
+    "moment": "^2.29.2",
+    "mysql2": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
